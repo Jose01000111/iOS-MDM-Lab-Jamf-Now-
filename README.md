@@ -1,5 +1,17 @@
 🍽️ FreshTable Eats – iOS MDM Lab (Jamf Now)
 
+Even though I wasn’t able to fully configure my personal iPhone XR due to Apple’s restrictions on managing personal devices through MDM, I successfully enrolled a test device using Jamf Now’s Open Enrollment feature and APNs setup. I walked through the full lifecycle of creating a Jamf Now account, linking it with Apple's Push Notification service, and setting up a custom Blueprint to apply real-world security and productivity settings to a managed device.
+
+Through this lab, I was able to get a hands-on feel for what I can accomplish with Jamf Now, including:
+
+Enforcing passcode and app restrictions
+
+Pre-installing business-critical apps
+
+Setting up automatic Wi-Fi configuration
+
+Using open enrollment for a seamless device onboarding experience.
+
 ### 🧪 Lab Tasks
 #### STEP 1: Create a Jamf Now Account
 Go to jamf.com
