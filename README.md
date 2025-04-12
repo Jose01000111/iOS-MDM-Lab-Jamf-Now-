@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.imgur.com/pqTjnLb.png" alt="osTicket logo"/>
+<img src="https://i.imgur.com/BZQuTqx.png" alt="osTicket logo"/>
 </p>
 
 ## 🍽️ FreshTable Eats – 📱iOS MDM Lab (Jamf Now)
