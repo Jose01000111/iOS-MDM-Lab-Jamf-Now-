@@ -1,4 +1,4 @@
-## 🍽️ FreshTable Eats – iOS MDM Lab (Jamf Now)
+## 🍽️ FreshTable Eats – 📱iOS MDM Lab (Jamf Now)
 
 Even though I wasn’t able to fully configure my personal iPhone XR due to Apple’s restrictions on managing personal devices through MDM, I successfully enrolled a test device using Jamf Now’s Open Enrollment feature and APNs setup. I walked through the full lifecycle of creating a Jamf Now account, linking it with Apple's Push Notification service, and setting up a custom Blueprint to apply real-world security and productivity settings to a managed device.
 
@@ -22,8 +22,6 @@ Sign up for the free plan (up to 3 devices)
 In Jamf Now, go to Settings → Apple MDM Push Certificate
 
 Click Connect to APNs → Download the CSR file
-
-Go to https://identity.apple.com/pushcert/
 
 Sign in with your Apple ID
 
