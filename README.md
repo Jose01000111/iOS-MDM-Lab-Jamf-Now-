@@ -1,5 +1,6 @@
 🍽️ FreshTable Eats – iOS MDM Lab (Jamf Now)
-✅ Step-by-Step Lab Guide
+
+### 🧪 Lab Tasks
 #### STEP 1: Create a Jamf Now Account
 Go to jamf.com
 
