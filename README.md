@@ -21,11 +21,19 @@ Sign up for the free plan (up to 3 devices)
 #### STEP 2: Set Up the Apple Push Notification Service (APNs)
 In Jamf Now, go to Settings → Apple MDM Push Certificate
 
+https://imgur.com/U96TSh1
+
 Click Connect to APNs → Download the CSR file
+
+https://imgur.com/s1uPgnc
 
 Sign in with your Apple ID
 
+https://imgur.com/mVtsXzh
+
 Click Create a Certificate
+
+https://imgur.com/knwmbsd
 
 Upload the .csr file you downloaded
 
@@ -64,6 +72,8 @@ The iPhone is now enrolled in MDM!
 #### STEP 5: Create Your MDM Blueprint (Policy)
 In the Jamf Now dashboard:
 
+https://imgur.com/7ay7obN
+
 Go to Blueprints → Click + New Blueprint
 
 Name it: FreshTable Manager iPhone
@@ -85,6 +95,8 @@ Disable Camera
 Disable Installing/Deleting Apps
 
 Enforce passcode policy
+
+https://imgur.com/KJzycDI
 
 Wi-Fi Config:
 
