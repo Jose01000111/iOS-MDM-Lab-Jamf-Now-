@@ -1,3 +1,7 @@
+<p align="center">
+<img src="https://i.imgur.com/pqTjnLb.png" alt="osTicket logo"/>
+</p>
+
 ## 🍽️ FreshTable Eats – 📱iOS MDM Lab (Jamf Now)
 
 Even though I wasn’t able to fully configure my personal iPhone XR due to Apple’s restrictions on managing personal devices through MDM, I successfully enrolled a test device using Jamf Now’s Open Enrollment feature and APNs setup. I walked through the full lifecycle of creating a Jamf Now account, linking it with Apple's Push Notification service, and setting up a custom Blueprint to apply real-world security and productivity settings to a managed device.
@@ -21,19 +25,27 @@ Sign up for the free plan (up to 3 devices)
 #### STEP 2: Set Up the Apple Push Notification Service (APNs)
 In Jamf Now, go to Settings → Apple MDM Push Certificate
 
-https://imgur.com/U96TSh1
+<p align="center">
+<img src="https://i.imgur.com/U96TSh1.png" alt="osTicket logo"/>
+</p>
 
 Click Connect to APNs → Download the CSR file
 
-https://imgur.com/s1uPgnc
+<p align="center">
+<img src="https://i.imgur.com/s1uPgnc.png" alt="osTicket logo"/>
+</p>
 
 Sign in with your Apple ID
 
-https://imgur.com/mVtsXzh
+<p align="center">
+<img src="https://i.imgur.com/mVtsXzh.png" alt="osTicket logo"/>
+</p>
 
 Click Create a Certificate
 
-https://imgur.com/knwmbsd
+<p align="center">
+<img src="https://i.imgur.com/knwmbsd.png" alt="osTicket logo"/>
+</p>
 
 Upload the .csr file you downloaded
 
@@ -49,8 +61,6 @@ Go to Open Enrollment Settings
 Click Enable Open Enrollment
 
 Jamf Now gives you:
-
-A custom enrollment URL: https://go.jamfnow.com/xxxxxx
 
 A QR code (optional)
 
@@ -72,7 +82,9 @@ The iPhone is now enrolled in MDM!
 #### STEP 5: Create Your MDM Blueprint (Policy)
 In the Jamf Now dashboard:
 
-https://imgur.com/7ay7obN
+<p align="center">
+<img src="https://i.imgur.com/7ay7obN.png" alt="osTicket logo"/>
+</p>
 
 Go to Blueprints → Click + New Blueprint
 
@@ -96,7 +108,9 @@ Disable Installing/Deleting Apps
 
 Enforce passcode policy
 
-https://imgur.com/KJzycDI
+<p align="center">
+<img src="https://i.imgur.com/KJzycDI.png" alt="osTicket logo"/>
+</p>
 
 Wi-Fi Config:
 
