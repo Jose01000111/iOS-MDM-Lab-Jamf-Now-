@@ -10,6 +10,12 @@ In this theoretical lab, I attempted to configure an old iPad, due to not being 
 #### STEP 1: Create a Jamf Now Account
 I went to jamf.com and signed up for the free plan, which supports up to 3 devices.
 
+<p align="center">
+<img src="https://i.imgur.com/qTNRrZ7.png" alt="osTicket logo"/>
+</p>
+
+***
+
 #### STEP 2: Set Up the Apple Push Notification Service (APNs)
 In Jamf Now, I navigated to Settings → Apple MDM Push Certificate, clicked on "Connect to APNs," and downloaded the CSR file. I signed in with my Apple ID, created a certificate, uploaded the CSR file, downloaded the .pem certificate, and uploaded it back to Jamf Now. Now, APNs is connected, and I can manage iPhones remotely!
 
