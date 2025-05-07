@@ -19,11 +19,15 @@ In Jamf Now, go to Settings → Apple MDM Push Certificate
 <img src="https://i.imgur.com/U96TSh1.png" alt="osTicket logo"/>
 </p>
 
+***
+
 Click Connect to APNs → Download the CSR file
 
 <p align="center">
 <img src="https://i.imgur.com/s1uPgnc.png" alt="osTicket logo"/>
 </p>
+
+***
 
 Sign in with your Apple ID
 
@@ -31,11 +35,15 @@ Sign in with your Apple ID
 <img src="https://i.imgur.com/mVtsXzh.png" alt="osTicket logo"/>
 </p>
 
+***
+
 Click Create a Certificate
 
 <p align="center">
 <img src="https://i.imgur.com/knwmbsd.png" alt="osTicket logo"/>
 </p>
+
+***
 
 Upload the .csr file you downloaded
 
@@ -53,6 +61,8 @@ Click Enable Open Enrollment
 Jamf Now gives you:
 
 A QR code (optional)
+
+***
 
 #### STEP 4: Enroll the iPhone XR
 On the iPhone XR:
@@ -101,6 +111,8 @@ Enforce passcode policy
 <p align="center">
 <img src="https://i.imgur.com/KJzycDI.png" alt="osTicket logo"/>
 </p>
+
+*** 
 
 Wi-Fi Config:
 
