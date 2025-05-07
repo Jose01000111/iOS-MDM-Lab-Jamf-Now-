@@ -8,12 +8,10 @@ In this theoretical lab, I attempted to configure an old iPad, due to not being 
 
 ### 🧪 Lab Tasks
 #### STEP 1: Create a Jamf Now Account
-Go to jamf.com
-
-Sign up for the free plan (up to 3 devices)
+I went to jamf.com and signed up for the free plan, which supports up to 3 devices.
 
 #### STEP 2: Set Up the Apple Push Notification Service (APNs)
-In Jamf Now, go to Settings → Apple MDM Push Certificate
+In Jamf Now, I navigated to Settings → Apple MDM Push Certificate, clicked on "Connect to APNs," and downloaded the CSR file. I signed in with my Apple ID, created a certificate, uploaded the CSR file, downloaded the .pem certificate, and uploaded it back to Jamf Now. Now, APNs is connected, and I can manage iPhones remotely!
 
 <p align="center">
 <img src="https://i.imgur.com/U96TSh1.png" alt="osTicket logo"/>
@@ -21,15 +19,11 @@ In Jamf Now, go to Settings → Apple MDM Push Certificate
 
 ***
 
-Click Connect to APNs → Download the CSR file
-
 <p align="center">
 <img src="https://i.imgur.com/s1uPgnc.png" alt="osTicket logo"/>
 </p>
 
 ***
-
-Sign in with your Apple ID
 
 <p align="center">
 <img src="https://i.imgur.com/mVtsXzh.png" alt="osTicket logo"/>
@@ -37,76 +31,28 @@ Sign in with your Apple ID
 
 ***
 
-Click Create a Certificate
-
 <p align="center">
 <img src="https://i.imgur.com/knwmbsd.png" alt="osTicket logo"/>
 </p>
 
 ***
 
-Upload the .csr file you downloaded
-
-Download the resulting .pem certificate
-
-Go back to Jamf Now and upload the .pem file
-
-✅ Now APNs is connected — you can remotely manage iPhones!
-
 #### STEP 3: Enable Open Enrollment
-Go to Open Enrollment Settings
-
-Click Enable Open Enrollment
-
-Jamf Now gives you:
-
-A QR code (optional)
+I went to Open Enrollment Settings and clicked "Enable Open Enrollment." Jamf Now provided a QR code, ready for device enrollment.
 
 ***
 
 #### STEP 4: Enroll the iPhone XR
-On the iPhone XR:
-
-Open Safari
-
-Go to your Jamf enrollment URL
-
-Tap Allow to download the configuration profile
-
-Go to Settings > Profile Downloaded
-
-Tap Install and confirm
-
-The iPhone is now enrolled in MDM!
+On the iPhone XR, I opened Safari, went to the Jamf enrollment URL, tapped "Allow" to download the configuration profile, then went to Settings > Profile Downloaded, tapped Install, and confirmed. The iPhone is now enrolled in MDM!
 
 #### STEP 5: Create Your MDM Blueprint (Policy)
-In the Jamf Now dashboard:
+In the Jamf Now dashboard, I created a new blueprint called "FreshTable Manager iPhone" under Blueprints. I added apps like Microsoft Outlook, Square POS, Zoom, and Calendar, removed or hid the App Store, disabled Safari and the camera, and enforced a passcode policy. I also configured Wi-Fi with the store’s SSID and password.
 
 <p align="center">
 <img src="https://i.imgur.com/7ay7obN.png" alt="osTicket logo"/>
 </p>
 
-Go to Blueprints → Click + New Blueprint
-
-Name it: FreshTable Manager iPhone
-
-In the Blueprint settings:
-
-Apps:
-
-Add: Microsoft Outlook, Square POS, Zoom, Calendar
-
-Remove or hide the App Store
-
-Restrictions:
-
-Disable Safari
-
-Disable Camera
-
-Disable Installing/Deleting Apps
-
-Enforce passcode policy
+***
 
 <p align="center">
 <img src="https://i.imgur.com/KJzycDI.png" alt="osTicket logo"/>
@@ -114,9 +60,6 @@ Enforce passcode policy
 
 *** 
 
-Wi-Fi Config:
-
-Add your store’s SSID and password
 
 ### 🎯 Goals Accomplished
 #### Deployed a secure MDM environment using Jamf Now for business-owned iPhones
