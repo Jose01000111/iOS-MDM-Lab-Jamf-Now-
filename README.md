@@ -45,14 +45,14 @@ I went to Open Enrollment Settings and clicked "Enable Open Enrollment." Jamf No
 #### STEP 4: Enroll the iPhone XR
 On the iPhone XR, I opened Safari, went to the Jamf enrollment URL, tapped "Allow" to download the configuration profile, then went to Settings > Profile Downloaded, tapped Install, and confirmed. The iPhone is now enrolled in MDM!
 
-#### STEP 5: Create Your MDM Blueprint (Policy)
-In the Jamf Now dashboard, I created a new blueprint called "FreshTable Manager iPhone" under Blueprints. I added apps like Microsoft Outlook, Square POS, Zoom, and Calendar, removed or hid the App Store, disabled Safari and the camera, and enforced a passcode policy. I also configured Wi-Fi with the store’s SSID and password.
-
 <p align="center">
 <img src="https://i.imgur.com/7ay7obN.png" alt="osTicket logo"/>
 </p>
 
 ***
+
+#### STEP 5: Create Your MDM Blueprint (Policy)
+In the Jamf Now dashboard, I created a new blueprint called "FreshTable Manager iPhone" under Blueprints. I added apps like Microsoft Outlook, Square POS, Zoom, and Calendar, removed or hid the App Store, disabled Safari and the camera, and enforced a passcode policy. I also configured Wi-Fi with the store’s SSID and password.
 
 <p align="center">
 <img src="https://i.imgur.com/KJzycDI.png" alt="osTicket logo"/>
